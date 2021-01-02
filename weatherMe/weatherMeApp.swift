@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct weatherMeApp: App {
+   var api=WeatherApi()
     var body: some Scene {
         WindowGroup {
             ContentView()

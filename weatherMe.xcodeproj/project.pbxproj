@@ -13,6 +13,10 @@
 		975D425D259F7F7400A18109 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975D425C259F7F7400A18109 /* Preview Assets.xcassets */; };
 		975D4268259F7F7500A18109 /* weatherMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D4267259F7F7500A18109 /* weatherMeTests.swift */; };
 		975D4273259F7F7500A18109 /* weatherMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D4272259F7F7500A18109 /* weatherMeUITests.swift */; };
+		975D4284259FB3BA00A18109 /* Weatherapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D4283259FB3BA00A18109 /* Weatherapi.swift */; };
+		975D428925A00E9500A18109 /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D428825A00E9400A18109 /* location.swift */; };
+		975D428E25A0145500A18109 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D428D25A0145500A18109 /* weather.swift */; };
+		975D429325A0189600A18109 /* weathers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D429225A0189600A18109 /* weathers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		975D426E259F7F7500A18109 /* weatherMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		975D4272259F7F7500A18109 /* weatherMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherMeUITests.swift; sourceTree = "<group>"; };
 		975D4274259F7F7500A18109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975D4283259FB3BA00A18109 /* Weatherapi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weatherapi.swift; sourceTree = "<group>"; };
+		975D428825A00E9400A18109 /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
+		975D428D25A0145500A18109 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
+		975D429225A0189600A18109 /* weathers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weathers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				975D4255259F7F7200A18109 /* weatherMeApp.swift */,
 				975D4257259F7F7200A18109 /* ContentView.swift */,
+				975D4283259FB3BA00A18109 /* Weatherapi.swift */,
+				975D429225A0189600A18109 /* weathers.swift */,
+				975D428825A00E9400A18109 /* location.swift */,
+				975D428D25A0145500A18109 /* weather.swift */,
 				975D4259259F7F7400A18109 /* Assets.xcassets */,
 				975D425E259F7F7400A18109 /* Info.plist */,
 				975D425B259F7F7400A18109 /* Preview Content */,
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975D428E25A0145500A18109 /* weather.swift in Sources */,
+				975D4284259FB3BA00A18109 /* Weatherapi.swift in Sources */,
 				975D4258259F7F7200A18109 /* ContentView.swift in Sources */,
+				975D428925A00E9500A18109 /* location.swift in Sources */,
+				975D429325A0189600A18109 /* weathers.swift in Sources */,
 				975D4256259F7F7200A18109 /* weatherMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
